@@ -1,0 +1,56 @@
+# Ignore build and VS artifacts
+[Bb]in/
+[Oo]bj/
+
+# Visual Studio user-specific files
+*.user
+*.suo
+*.sln.docstates
+*.dbmdl           # Database model files (auto-generated)
+*.publish.xml     # Publish profiles (can contain secrets)
+
+# VS-generated folder
+.vs/
+
+# Logs
+*.log
+
+# SQL Server project files to ignore
+*.sqlproj.user    # User settings for the SQL project
+*.dbmdl           # Local DB model (not needed in source control)
+*.pfx             # Strong name key files
+*.snk             # Strong name key files
+
+# Package/Restore-related
+*.nupkg
+*.nuspec
+packages/
+project.lock.json
+
+# Miscellaneous
+*.bak
+*.backup
+*.tmp
+*.cache
+*.orig
+_ReSharper*/
+*.DotSettings.user
+.vscode/
+
+# Test results
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+
+# Windows system files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS system files
+.DS_Store
+
+# Rider / JetBrains
+.idea/
