@@ -1,6 +1,5 @@
-﻿# 📘 SQL & T-SQL Roadmap (80/20 Principle)
-
-This roadmap follows the **80/20 principle** (focus on the 20% concepts that give 80% practical benefits).  
+﻿# 📘 SQL & T-SQL
+ 
 It covers **SQL & T-SQL concepts from basic to advanced** that are essential for real-world database work.
 
 ---
