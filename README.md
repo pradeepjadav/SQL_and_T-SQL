@@ -1,4 +1,4 @@
-# 📘 SQL & T-SQL Roadmap (for MSSQL & .NET Ecosystem)
+# SQL & T-SQL Roadmap (for MSSQL & .NET Ecosystem)
 
 This roadmap helps you **master SQL & T-SQL** step by step using the **80/20 principle**:  
 - **20% Theory** → Core concepts & rules you must know  
