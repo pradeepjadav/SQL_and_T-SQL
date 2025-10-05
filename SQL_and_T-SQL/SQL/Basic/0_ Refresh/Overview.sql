@@ -244,10 +244,10 @@ Answer:
 
 	Example: 
 		-- DDL
-		CREATE TABLE Students (Id INT, Name VARCHAR(50));
+		*/CREATE TABLE Students (Id INT, Name VARCHAR(50));/*
 
 		-- DML
-		INSERT INTO Students VALUES (1, 'Pradeep'); 
+		*/INSERT INTO Students VALUES (1, 'Pradeep'); /*
 
 Q6. What is the most commonly used SQL command in real projects?
 Answer:
@@ -271,10 +271,10 @@ Answer:
 
 	Example:
 
-		BEGIN TRANSACTION;
+		*/BEGIN TRANSACTION;
 			UPDATE Accounts SET Balance = Balance - 100 WHERE AccountID = 1;
 			UPDATE Accounts SET Balance = Balance + 100 WHERE AccountID = 2;
-		COMMIT TRANSACTION;
+		COMMIT TRANSACTION;/*
 
 Q10. What is normalization?
 Answer:
