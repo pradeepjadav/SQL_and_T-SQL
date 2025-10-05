@@ -1,56 +1,80 @@
-# Ignore build and VS artifacts
+# ------------------------
+# Build and VS Artifacts
+# ------------------------
 [Bb]in/
 [Oo]bj/
 
-# Visual Studio user-specific files
+# ------------------------
+# Visual Studio
+# ------------------------
+.vs/
 *.user
 *.suo
 *.sln.docstates
-*.dbmdl           # Database model files (auto-generated)
-*.publish.xml     # Publish profiles (can contain secrets)
 
-# VS-generated folder
-.vs/
+# ------------------------
+# SQL Server / SSDT / T-SQL
+# ------------------------
+*.sqlproj.user     # SQL project user settings
+*.dbmdl            # Local DB model (auto-generated, not needed in repo)
+*.pfx              # Strong name key
+*.snk              # Strong name key
+*.publish.xml      # Publish profiles (can contain secrets)
+*.sqlce            # SQL Compact Edition files
+*.sqlsettings      # SQL Server settings file
+*.jfm              # SQL Fragment Markers (used in schema compare)
+*.sqlref           # SQL reference cache files
 
-# Logs
-*.log
+# Ignore DACPACs and related build artifacts
+*.dacpac
+*.bacpac
+*.dpref
 
-# SQL Server project files to ignore
-*.sqlproj.user    # User settings for the SQL project
-*.dbmdl           # Local DB model (not needed in source control)
-*.pfx             # Strong name key files
-*.snk             # Strong name key files
-
-# Package/Restore-related
-*.nupkg
-*.nuspec
-packages/
-project.lock.json
-
-# Miscellaneous
+# Ignore backup and temporary files
 *.bak
 *.backup
 *.tmp
 *.cache
 *.orig
-_ReSharper*/
-*.DotSettings.user
-.vscode/
 
-# Test results
+# ------------------------
+# Logs
+# ------------------------
+*.log
+
+# ------------------------
+# NuGet / Package Restore
+# ------------------------
+*.nupkg
+*.nuspec
+packages/
+project.lock.json
+project.assets.json
+
+# ------------------------
+# Test Results
+# ------------------------
 TestResults/
 *.trx
 *.coverage
 *.coveragexml
 
-# Windows system files
+# ------------------------
+# Rider / JetBrains
+# ------------------------
+.idea/
+*.DotSettings.user
+
+# ------------------------
+# VS Code
+# ------------------------
+.vscode/
+
+# ------------------------
+# System Files
+# ------------------------
 Thumbs.db
 ehthumbs.db
 Desktop.ini
 $RECYCLE.BIN/
-
-# macOS system files
 .DS_Store
-
-# Rider / JetBrains
-.idea/
