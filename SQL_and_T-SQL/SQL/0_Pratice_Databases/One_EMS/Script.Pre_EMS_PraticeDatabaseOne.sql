@@ -5,12 +5,25 @@
 - Map of the tables
 --------------------------------------------------------------------------------------
 */
+
+-- ===============================================
+-- Database: PracticeSQLOne_EMS
+-- Domain: Employee Management System (HR & Payroll)
+-- ===============================================
+
+IF DB_ID('PracticeSQLOne_EMS') IS NOT NULL
+BEGIN
+    ALTER DATABASE PracticeSQLOne_EMS SET SINGLE_USER WITH ROLLBACK IMMEDIATE;
+    DROP DATABASE PracticeSQLOne_EMS;
+END
+GO
+
 -- Create the database
-CREATE DATABASE PracticeSQLOne;
+CREATE DATABASE PracticeSQLOne_EMS;
 GO
 
 -- Switch to the new database
-USE PracticeSQLOne;
+USE PracticeSQLOne_EMS;
 GO
 
 -- Schema of Tables:

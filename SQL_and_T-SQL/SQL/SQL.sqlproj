@@ -60,28 +60,43 @@
     <Folder Include="1_Basic" />
     <Folder Include="Pratice_Projects" />
     <Folder Include="1_Basic\0_ Refresh" />
-    <Folder Include="0_PraticeDatabaseOne" />
-    <Folder Include="0_PraticeDatabaseOne\Tables" />
+    <Folder Include="0_Pratice_Databases" />
+    <Folder Include="0_Pratice_Databases\One_EMS" />
+    <Folder Include="0_Pratice_Databases\One_EMS\Tables" />
+    <Folder Include="0_Pratice_Databases\Two_EC" />
+    <Folder Include="0_Pratice_Databases\Two_EC\Tables" />
   </ItemGroup>
   <ItemGroup>
     <PostDeploy Include="Post Scripts\Script.PostDeployment_Get_Teble_Details.sql" />
-    <None Include="0_PraticeDatabaseOne\Script.Post_InsertData.sql" />
+    <None Include="0_Pratice_Databases\Two_EC\Script.Post_EC_InsertData.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="1_Basic\0_ Refresh\Overview.sql" />
   </ItemGroup>
   <ItemGroup>
-    <PreDeploy Include="0_PraticeDatabaseOne\Script.Pre_PraticeDatabaseOne.sql" />
+    <Build Include="0_Pratice_Databases\One_EMS\Tables\Attendances.sql" />
+    <Build Include="0_Pratice_Databases\One_EMS\Tables\Departments.sql" />
+    <Build Include="0_Pratice_Databases\One_EMS\Tables\EmployeeJobRole.sql" />
+    <Build Include="0_Pratice_Databases\One_EMS\Tables\EmployeeProjects.sql" />
+    <Build Include="0_Pratice_Databases\One_EMS\Tables\Employees.sql" />
+    <Build Include="0_Pratice_Databases\One_EMS\Tables\JobRoles.sql" />
+    <Build Include="0_Pratice_Databases\One_EMS\Tables\Payrolls.sql" />
+    <Build Include="0_Pratice_Databases\One_EMS\Tables\Projects.sql" />
+    <Build Include="0_Pratice_Databases\One_EMS\Tables\Salaries.sql" />
+    <None Include="0_Pratice_Databases\One_EMS\Script.Post_EMS_InsertData.sql" />
+    <None Include="0_Pratice_Databases\One_EMS\Script.Pre_EMS_PraticeDatabaseOne.sql" />
+    <Build Include="0_Pratice_Databases\Two_EC\Tables\Customers.sql" />
+    <Build Include="0_Pratice_Databases\Two_EC\Tables\ProductReviews.sql" />
+    <Build Include="0_Pratice_Databases\Two_EC\Tables\Shipments.sql" />
+    <Build Include="0_Pratice_Databases\Two_EC\Tables\Coupons.sql" />
+    <Build Include="0_Pratice_Databases\Two_EC\Tables\Products.sql" />
+    <Build Include="0_Pratice_Databases\Two_EC\Tables\Payments.sql" />
+    <Build Include="0_Pratice_Databases\Two_EC\Tables\Suppliers.sql" />
+    <Build Include="0_Pratice_Databases\Two_EC\Tables\OrderItems.sql" />
+    <Build Include="0_Pratice_Databases\Two_EC\Tables\Orders.sql" />
+    <Build Include="0_Pratice_Databases\Two_EC\Tables\Categories.sql" />
   </ItemGroup>
   <ItemGroup>
-    <Build Include="0_PraticeDatabaseOne\Tables\Employees.sql" />
-    <Build Include="0_PraticeDatabaseOne\Tables\Projects.sql" />
-    <Build Include="0_PraticeDatabaseOne\Tables\Departments.sql" />
-    <Build Include="0_PraticeDatabaseOne\Tables\EmployeeJobRole.sql" />
-    <Build Include="0_PraticeDatabaseOne\Tables\JobRoles.sql" />
-    <Build Include="0_PraticeDatabaseOne\Tables\Salaries.sql" />
-    <Build Include="0_PraticeDatabaseOne\Tables\EmployeeProjects.sql" />
-    <Build Include="0_PraticeDatabaseOne\Tables\Payrolls.sql" />
-    <Build Include="0_PraticeDatabaseOne\Tables\Attendances.sql" />
+    <PreDeploy Include="0_Pratice_Databases\Two_EC\Script.Pre_EC_PraticeDatabaseTwo.sql" />
   </ItemGroup>
 </Project>

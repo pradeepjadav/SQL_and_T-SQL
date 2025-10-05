@@ -1,0 +1,13 @@
+﻿CREATE TABLE Customers (
+    CustomerId INT IDENTITY(1,1) PRIMARY KEY,
+    FirstName NVARCHAR(100) NOT NULL,
+    LastName NVARCHAR(100) NOT NULL,
+    Email NVARCHAR(150) NOT NULL UNIQUE,
+    Phone NVARCHAR(30),
+    CreatedBy  NVARCHAR(100) DEFAULT 'System',
+    UpdatedBy  NVARCHAR(100) NULL,
+    CreatedDate DATETIME DEFAULT GETDATE(),
+    UpdatedDate DATETIME NULL,
+    IsActive BIT DEFAULT 1,
+    IsArchived BIT DEFAULT 0
+);
