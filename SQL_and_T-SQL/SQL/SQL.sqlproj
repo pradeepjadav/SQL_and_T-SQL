@@ -56,7 +56,7 @@
   <Import Condition="'$(SQLDBExtensionsRefPath)' == ''" Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
   <ItemGroup>
     <Folder Include="Properties" />
-    <Folder Include="Post Scripts" />
+    <Folder Include="Others" />
     <Folder Include="1_Basic" />
     <Folder Include="Pratice_Projects" />
     <Folder Include="1_Basic\0_ Refresh" />
@@ -67,7 +67,7 @@
     <Folder Include="0_Pratice_Databases\Two_EC\Tables" />
   </ItemGroup>
   <ItemGroup>
-    <PostDeploy Include="Post Scripts\Script.PostDeployment_Get_Teble_Details.sql" />
+    <PostDeploy Include="Others\Script.Post_Get_Teble_Details.sql" />
     <None Include="0_Pratice_Databases\Two_EC\Script.Post_EC_InsertData.sql" />
   </ItemGroup>
   <ItemGroup>
