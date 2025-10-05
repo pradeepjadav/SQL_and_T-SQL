@@ -78,3 +78,11 @@ ehthumbs.db
 Desktop.ini
 $RECYCLE.BIN/
 .DS_Store
+
+# ------------------------
+# Local SQL/T-SQL artifacts
+# ------------------------
+/SQL_and_T-SQL/T-SQL/T-SQL.dbmdl
+/SQL_and_T-SQL/T-SQL/T-SQL.jfm
+/SQL_and_T-SQL/SQL/SQL.dbmdl
+/SQL_and_T-SQL/SQL/SQL.jfm
