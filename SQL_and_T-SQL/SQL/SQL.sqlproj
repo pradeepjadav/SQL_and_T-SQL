@@ -75,6 +75,7 @@
   <ItemGroup>
     <None Include="1_Basic\0_ Refresh\Overview.sql" />
     <None Include="3_Advance\Deadlock.sql" />
+    <None Include="Real Time SQL Server Experience Questions List.txt" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="0_Pratice_Databases\One_EMS\Tables\Attendances.sql" />
