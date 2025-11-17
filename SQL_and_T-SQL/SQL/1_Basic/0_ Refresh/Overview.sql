@@ -1,4 +1,5 @@
 ﻿ -- Theory
+ -------------------------------------------------------------
 /*
 
 🧠 What is SQL?
@@ -106,6 +107,7 @@ Types of SQL Commands:
 */
 
  -- Why Needed - Why It Matters in Real World
+ -------------------------------------------------------------
 /*
 
 - Every .NET web or desktop app connects to a database.
@@ -140,7 +142,7 @@ Types of SQL Commands:
 */
 
 -- Pratice and Examples
-
+-------------------------------------------------------------
 --1. DDL:
 --	Create Database:
 
@@ -192,6 +194,7 @@ Types of SQL Commands:
 
 
  -- Interviwe Q&A
+ -------------------------------------------------------------
 /*
 
 Q1. What is SQL?

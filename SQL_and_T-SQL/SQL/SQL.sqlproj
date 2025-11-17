@@ -65,6 +65,8 @@
     <Folder Include="0_Pratice_Databases\One_EMS\Tables" />
     <Folder Include="0_Pratice_Databases\Two_EC" />
     <Folder Include="0_Pratice_Databases\Two_EC\Tables" />
+    <Folder Include="2_Intermediate" />
+    <Folder Include="3_Advance" />
   </ItemGroup>
   <ItemGroup>
     <PostDeploy Include="Others\Script.Post_Get_Teble_Details.sql" />
@@ -72,6 +74,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="1_Basic\0_ Refresh\Overview.sql" />
+    <None Include="3_Advance\Deadlock.sql" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="0_Pratice_Databases\One_EMS\Tables\Attendances.sql" />
